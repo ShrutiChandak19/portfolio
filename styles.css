@@ -1,0 +1,251 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+header {
+    background-color: #6e47f6;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+img {
+    margin-top: 30px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 #d5c9ff;
+}
+  
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    margin-left: 20px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+a:link {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    text-decoration: underline;
+  }
+
+
+#portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#about {
+    text-align: left;
+}
+
+#about p {
+    font-size: 20px;
+}
+
+.portfolio-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    flex: 1 1 calc(33% - 40px);
+    box-sizing: border-box;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+section.intro {
+    /* background: url(../img/clouds.png) repeat-x top center; */
+    background-size: contain;
+    background-repeat: repeat;
+    background-color: #6e47f6;
+    margin: 0px;
+    padding-bottom: 70px;
+    position: relative;
+    /* border-right: 20px solid #fff;
+    border-left: 20px solid #fff;
+    border-top: 20px solid #fff; */
+    padding-top: 30px;
+    color: #fff;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px;
+    border: none;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+.title{
+    font-family: 'Brush Script MT', cursive;
+    font-size: 70px;
+}
+
+.btn {
+    border: solid 1px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+.column-left{
+    text-align: center;
+}
+
+.column-left p{
+    color: #ccc;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+}
+
+.typewrite, .wrap{
+    color: #fff;
+    font-size: 25px;
+    animation: typewriter 2s steps(13) infinite alternate,
+                blink 800ms steps(13) infinite normal;
+}
+
+.skills {
+    text-align: center; /* Right-align text */
+    padding-top: 10px; /* Add top padding */
+    padding-bottom: 10px; /* Add bottom padding */
+    color: white; /* White text color */
+    background-color: #6e47f6;
+    margin-right: 10px;
+}
+
+.skill-tags {
+    /* display: flex; */
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.tag {
+    background-color: #d5c9ff;
+    border-radius: 5px;
+    padding: 20px 20px;
+}
+
+  button {
+    border-radius: 30px;
+  }
+
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #6e47f6;
+}
+
+.button a{
+    color: #fff;
+}
+
+.contact-icon{
+    font-size: 25px !important;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.footer{
+    color: #fff;
+    background-color: #6e47f6;
+    padding: 10px;
+}
+  
+.card-container{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 #d5c9ff;
+    width: 250px;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+  
+.card-title {
+    color: grey;
+    font-size: 18px;
+}
