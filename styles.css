@@ -263,3 +263,19 @@ form button:hover {
         gap: 20px;
     }   
 }
+
+@media screen and (max-width: 600px) {
+    .skill-tags {
+        display: inline-grid;
+        grid-template-columns: auto auto auto;
+        gap: 20px;
+    }   
+}
+
+@media screen and (max-width: 400px) {
+    .skill-tags {
+        display: inline-grid;
+        grid-template-columns: auto auto;
+        gap: 20px;
+    }   
+}
